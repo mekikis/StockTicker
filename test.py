@@ -33,7 +33,6 @@ while True:
 
     stock_tracker = paho.Client("btc")
     stock_tracker.on_publish = on_publish
-    stock_tracker.username_pw_set(username="akis", password="1q2w3e")
     stock_tracker.connect(broker, port)
 
     flag = 0
