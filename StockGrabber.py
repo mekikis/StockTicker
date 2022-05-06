@@ -31,7 +31,6 @@ def on_publish(client, userdata, result):
 
 # crypto_tracker = paho.Client("btc")
 # crypto_tracker.on_publish = on_publish
-# crypto_tracker.username_pw_set(username="akis", password="1q2w3e")
 # crypto_tracker.connect(broker, port)
 
 if (current_crypto_prices['BTC-EUR'] > 1.1*seven_days_btc):
